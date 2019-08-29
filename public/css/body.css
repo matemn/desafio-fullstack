@@ -1,0 +1,61 @@
+.page-item.active .page-link{
+	background-color: #55d400;
+	border-color: #55d400;
+	color: white;
+}
+.page-link {
+	color: black;  
+}
+.page-link:hover {
+	color: #55d400;  
+}
+
+.btn-success {
+	background-color: #55d400;
+	border-color: #55d400;
+	border-radius: 1px;
+}
+.btn-success:hover{
+	background-color: #1b1e21;
+	border-color: #1b1e21;
+	border-radius: 2px;
+}
+
+/* fa fa icons */
+
+.fa-pencil:before {
+    content: "\f040";
+    font-size: 24px;
+    margin-right: 1em;
+}
+
+.fa-pencil:hover{
+	opacity: 0.5;
+	color: black;
+}
+
+.fa-trash:before {
+    content: "\f1f8";
+    font-size: 24px;
+    color: red;
+}
+
+.fa-trash:hover {
+    opacity: 0.5;
+}
+/* table */
+
+th, td {
+    text-align: center;
+} 
+
+/* botao cadastro */
+.botao{
+	padding: 1em;
+}
+
+/* asteristico obrigatorio pagina cadastro */
+span{
+	color: red;
+	font-weight: bold;
+}
